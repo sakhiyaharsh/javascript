@@ -1,0 +1,759 @@
+@media (max-width:1024px) {
+
+    .section-p1 {
+        padding: 40px 14px;
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+    .section-p1 {
+        padding: 40px 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #fff;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0px 0px 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #393E45;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #393E45;
+        font-size: 24px;
+    }
+
+    .btn a {
+        margin-left: 14rem;
+    }
+
+    .hero_section {
+        flex-direction: column;
+    }
+
+    .img_1 img {
+        position: absolute;
+        right: -27rem;
+    }
+
+    .img_2 img {
+        position: absolute;
+        top: 17rem;
+        right: -27rem;
+    }
+
+    .img_3 img {
+        position: absolute;
+        right: -14.5rem;
+        top: 7rem;
+    }
+
+    .img_4 img {
+        position: absolute;
+        top: 24rem;
+        right: -14.5rem;
+    }
+
+    .img_5 img {
+        position: absolute;
+        top: 7rem;
+        right: -40.5rem;
+    }
+
+    .img_6 img {
+        position: absolute;
+        top: 24rem;
+        right: -40.5rem;
+    }
+
+    #hero .left_side .content h2 {
+        margin-top: 0;
+    }
+
+    #hero .left_side .content .emial_box {
+        gap: 30px;
+    }
+
+    #hero .left_side {
+        width: auto;
+    }
+
+    #hero .right_side {
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .top_heading {
+        flex-wrap: wrap;
+    }
+
+    .top_heading .left_content h2 {
+        margin-bottom: 10px;
+    }
+
+    #explore_course .explore_course_content .top_heading {
+        padding: 0 70px;
+    }
+
+    #explore_course {
+        margin-top: 42rem;
+    }
+
+    .explore_img_group {
+        flex-wrap: wrap;
+    }
+
+    #basketball_section .left_side {
+        padding-left: 0;
+    }
+
+    #basketball_section .right_side {
+        padding-right: 0;
+    }
+
+    #basketball_section {
+        gap: 2rem;
+    }
+
+    .play_btn {
+        right: 0;
+    }
+
+    #basketball_section {
+        margin: 45px 64px;
+    }
+
+    #lesson .left_side {
+        float: none;
+        width: auto;
+    }
+
+    #lesson .right_side {
+        float: none;
+        width: auto;
+        padding: 0;
+    }
+
+    #lesson .left_side .lesson_img {
+        text-align: center;
+    }
+
+    #lesson .left_side .lesson_img img {
+        margin-left: 0;
+    }
+
+    #lesson .right_side .session {
+        justify-content: center;
+    }
+
+    #lesson .right_side h3 {
+        text-align: center;
+    }
+
+    #lesson .right_side span {
+        text-align: center;
+    }
+
+    #lesson .right_side .btn {
+        display: block;
+        margin-left: -4rem;
+    }
+
+    #consultant .consultant_left_side .form {
+        bottom: 0;
+    }
+
+    .lesson_play_btn {
+        width: 100%;
+    }
+
+    #stream {
+        flex-wrap: wrap;
+        margin-top: 4rem;
+    }
+
+    #stream .stream_left_side h2 {
+        text-align: center;
+    }
+
+    #stream .stream_left_side h4 {
+        margin-left: 12rem;
+    }
+
+    #consultant {
+        flex-wrap: wrap;
+    }
+
+    #consultant .right_side_img h2,
+    #consultant .right_side_img p {
+        text-align: center;
+    }
+
+    #yoga {
+        margin-top: 2rem;
+    }
+
+    #yoga .yoga_img {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    #yoga .yoga_img .img img {
+        width: 100%;
+    }
+
+    #yoga .yoga_title h2 {
+        font-size: 35px;
+    }
+
+    #yoga .yoga_img {
+        margin-top: 1rem;
+    }
+
+    #card {
+        margin-top: 3rem;
+    }
+
+    #card .card_img {
+        flex-wrap: wrap;
+        gap: 1rem 0;
+    }
+
+    #card .card_title h2 {
+        font-size: 35px;
+    }
+
+    #about_us .about_content .about_left .content p {
+        padding: 1rem 0rem 1rem 0;
+    }
+
+    #about_us .about_content {
+        padding: 1rem;
+    }
+
+    #subscribe {
+        padding: 3rem 3rem;
+    }
+    #about_us .about_content .about_left .left_right_btn {
+        margin: 16rem 0 0 1rem;
+    }
+    #foot {
+        padding: 30px;
+        background: #fff;
+    }
+    #foot .main_footer{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+}
+
+@media (max-width:477px) {
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 0px 30px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .btn a {
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    #mobile i {
+        padding-left: 0;
+    }
+
+    #hero .left_side {
+        width: auto;
+    }
+
+    #hero .right_side {
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .btn a {
+        padding: 7px 7px;
+    }
+
+    .img_1 img {
+        right: -16rem;
+    }
+
+    .img_2 img {
+        top: 17rem;
+        right: -16rem;
+    }
+
+    .img_3 img {
+        right: -16rem;
+        top: 34rem;
+    }
+
+    .img_4 img {
+        top: 51rem;
+        right: -16rem;
+    }
+
+    .img_5 img {
+        top: 68rem;
+        right: -16rem;
+    }
+
+    .img_6 img {
+        top: 85rem;
+        right: -16rem;
+    }
+
+    #hero .left_side .content h2 {
+        font-size: 37px;
+    }
+
+    #hero .left_side .content .text_p {
+        font-size: 15px;
+    }
+
+    #hero .left_side .content .emial_box {
+        gap: 10px;
+    }
+
+    #hero .left_side .content .emial_box .mail_btn a {
+        padding: 6px 6px;
+    }
+
+    #explore_course {
+        margin-top: 102rem;
+    }
+
+    #explore_course .explore_course_content .top_heading {
+        padding: 0px 50px;
+    }
+
+    .explore_img_group .img .img_content {
+        top: 75%;
+    }
+
+    .top_heading .left_content h2 {
+        font-size: 35px;
+    }
+
+    .top_heading .right_content p {
+        font-size: 13px;
+    }
+
+    .top_heading .right_content .explore_btn a {
+        font-size: 13px;
+    }
+
+    .explore_img_group {
+        gap: 10px;
+    }
+
+    #basketball_section {
+        margin: 45px 44px;
+    }
+
+    #basketball_section {
+        flex-wrap: wrap;
+    }
+
+    #lesson .right_side .session {
+        gap: 15px;
+    }
+
+    #lesson .right_side .session span {
+        font-size: 14px;
+    }
+
+    #lesson .right_side .btn {
+        display: block;
+        margin-left: 1.3rem;
+    }
+
+    #lesson .right_side .btn {
+        margin-top: 1rem;
+    }
+
+    #stream .stream_left_side h2 {
+        font-size: 29px;
+    }
+
+    #stream .stream_left_side h4 span {
+        font-size: 13px;
+    }
+
+    #stream .stream_left_side h4 {
+        margin-left: 0;
+    }
+
+    #stream .stream_right_side .right_img img {
+        width: 100%;
+    }
+
+    #stream .stream_right_side .right_img .play {
+        gap: 6.1rem;
+    }
+
+    #stream .stream_right_side .right_img .download p,
+    #stream .stream_right_side .right_img .download i {
+        font-size: 13px;
+    }
+
+    #stream .stream_right_side .right_img .download {
+        bottom: -17px;
+        left: 2%;
+    }
+
+    #stream .stream_right_side .right_img .live {
+        left: 1rem;
+    }
+
+    #stream .stream_right_side .right_img .live p {
+        font-size: 16px;
+    }
+
+    #stream .stream_right_side .right_img .massage {
+        left: 15.6rem;
+    }
+
+    #consultant .consultant_left_side .left_side_img img {
+        width: 100%;
+    }
+
+    #consultant .consultant_left_side .form {
+        bottom: -11rem;
+        left: 5rem;
+    }
+
+    #consultant .right_side_img h2 {
+        font-size: 30px;
+        margin-top: 4rem;
+    }
+
+    #consultant .right_side_img p {
+        font-size: 13px;
+    }
+
+    #about_us .about_content {
+        flex-wrap: wrap;
+    }
+
+    #about_us .about_content .about_left .content {
+        width: 96%;
+    }
+
+    #about_us .about_titlt h2 {
+        font-size: 30px;
+    }
+
+    #about_us .about_content .about_left .content {
+        left: 2%;
+        top: 18%;
+    }
+
+    #about_us .about_content .about_left .left_right_btn {
+        margin: 19rem 0 0 -0.5rem;
+    }
+
+    #about_us .about_right .img img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #subscribe {
+        padding: 3rem 0rem;
+    }
+
+    #subscribe .subscribe_content h2 {
+        font-size: 35px;
+    }
+
+    #subscribe .subscribe_content p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width:320px){
+    
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #header {
+        padding: 0px 10px;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .btn a {
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    #mobile i {
+        padding-left: 0;
+    }
+
+    #hero .left_side {
+        width: auto;
+    }
+
+    #hero .right_side {
+        width: auto;
+        margin-top: 4rem;
+    }
+
+    .btn a {
+        padding: 7px 7px;
+    }
+
+    .img_1 img {
+        right: -16rem;
+    }
+
+    .img_2 img {
+        top: 17rem;
+        right: -16rem;
+    }
+
+    .img_3 img {
+        right: -16rem;
+        top: 34rem;
+    }
+
+    .img_4 img {
+        top: 51rem;
+        right: -16rem;
+    }
+
+    .img_5 img {
+        top: 68rem;
+        right: -16rem;
+    }
+
+    .img_6 img {
+        top: 85rem;
+        right: -16rem;
+    }
+
+    #hero .left_side .content h2 {
+        font-size: 30px;
+    }
+
+    #hero .left_side .content .text_p {
+        font-size: 15px;
+        margin-top: 1rem;
+    }
+
+    #hero .left_side .content .emial_box {
+        gap: 10px;
+        margin-top: 2rem;
+        flex-wrap: wrap;
+    }
+    #hero .left_side .content .emial_box .mail_btn{
+        margin-top: 1rem;
+    }
+
+    #hero .left_side .content .emial_box .mail_btn a {
+        padding: 10px 20px;
+        
+    }
+
+    #explore_course {
+        margin-top: 102rem;
+    }
+
+    #explore_course .explore_course_content .top_heading {
+        padding: 0px 50px;
+    }
+
+    .explore_img_group .img .img_content {
+        top: 75%;
+    }
+
+    .top_heading .left_content h2 {
+        font-size: 35px;
+    }
+
+    .top_heading .right_content p {
+        font-size: 13px;
+    }
+
+    .top_heading .right_content .explore_btn a {
+        font-size: 13px;
+    }
+
+    .explore_img_group {
+        gap: 10px;
+    }
+
+    #basketball_section {
+        margin: 45px 44px;
+    }
+
+    #basketball_section {
+        flex-wrap: wrap;
+    }
+
+    #lesson .right_side .session {
+        gap: 15px;
+    }
+
+    #lesson .right_side .session span {
+        font-size: 14px;
+    }
+
+    #lesson .right_side .btn {
+        display: block;
+        margin-left: 1.3rem;
+    }
+
+    #lesson .right_side .btn {
+        margin-top: 1rem;
+    }
+
+    #stream .stream_left_side h2 {
+        font-size: 29px;
+    }
+
+    #stream .stream_left_side h4 span {
+        font-size: 13px;
+    }
+
+    #stream .stream_left_side h4 {
+        margin-left: 0;
+    }
+
+    #stream .stream_right_side .right_img img {
+        width: 100%;
+    }
+
+    #stream .stream_right_side .right_img .play {
+        gap: 6.1rem;
+    }
+
+    #stream .stream_right_side .right_img .download p,
+    #stream .stream_right_side .right_img .download i {
+        font-size: 13px;
+    }
+
+    #stream .stream_right_side .right_img .download {
+        bottom: -17px;
+        left: 2%;
+    }
+
+    #stream .stream_right_side .right_img .live {
+        left: 1rem;
+    }
+
+    #stream .stream_right_side .right_img .live p {
+        font-size: 16px;
+    }
+
+    #stream .stream_right_side .right_img .massage {
+        left: 15.6rem;
+    }
+
+    #consultant .consultant_left_side .left_side_img img {
+        width: 100%;
+    }
+
+    #consultant .consultant_left_side .form {
+        bottom: -11rem;
+        left: 5rem;
+    }
+
+    #consultant .right_side_img h2 {
+        font-size: 30px;
+        margin-top: 4rem;
+    }
+
+    #consultant .right_side_img p {
+        font-size: 13px;
+    }
+
+    #about_us .about_content {
+        flex-wrap: wrap;
+    }
+
+    #about_us .about_content .about_left .content {
+        width: 96%;
+    }
+
+    #about_us .about_titlt h2 {
+        font-size: 30px;
+    }
+
+    #about_us .about_content .about_left .content {
+        left: 2%;
+        top: 18%;
+    }
+
+    #about_us .about_content .about_left .left_right_btn {
+        margin: 19rem 0 0 -0.5rem;
+    }
+
+    #about_us .about_right .img img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #subscribe {
+        padding: 3rem 0rem;
+    }
+
+    #subscribe .subscribe_content h2 {
+        font-size: 35px;
+    }
+
+    #subscribe .subscribe_content p {
+        font-size: 13px;
+    }
+}
